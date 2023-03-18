@@ -11,4 +11,4 @@
 
 
 <u>Подробная информация о решении задачи:</u>
-https://dzen.ru/a/Y_TWMsubnnBtlSmr
+https://dzen.ru/a/ZAYawgrPPAHVibeJ
