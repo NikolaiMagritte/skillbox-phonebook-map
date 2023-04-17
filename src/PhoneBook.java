@@ -15,13 +15,7 @@ public class PhoneBook {
     }
 
     public String getContactByPhone(String phone) {
-        String contactByPhone = "";
-        for (String key : phoneBookMap.keySet()) {
-            if (phone.equals(key)) {
-                contactByPhone = phoneBookMap.get(key) + " - " + key;
-            }
-        }
-        return contactByPhone;
+        return phoneBookMap.containsKey(phone) ? phoneBookMap.get(phone) + " - " + phone : "";
     }
 
     public Set<String> getContactByName(String name) {
